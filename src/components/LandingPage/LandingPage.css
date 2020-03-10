@@ -22,8 +22,8 @@ html {
   }
   
   .btn {
-    width: 230px;
-    height: 60px; 
+    width: 180px;
+    height: 49px;
     border: 0;
     outline: none;
     padding: 20px 25px;
@@ -198,15 +198,15 @@ html {
   .glitch {
     text-align: center;
     color: #fff;
-    font-size: 5em;
-    letter-spacing: 8px;
+    font-size: medium;
     font-weight: 400;
+    letter-spacing: 1px;
+
     /*Create overlap*/
-    
     margin: 0;
     line-height: 0;
+
     /*Animation*/
-    
     animation: glitch1 5.0s infinite;
   }
   
@@ -383,5 +383,26 @@ html {
     100% {
       transform: none;
       opacity: 0.25;
+    }
+  }
+
+  /* 800px and above; desktops */
+  @media screen and (min-width: 800px) { 
+    .btn {
+      width: 230px;
+      height: 60px; 
+    }
+
+    .glitch {
+      font-size: 5em;
+      letter-spacing: 8px;
+    }
+  }
+
+  /* 500px and above; tablets */
+  @media screen and (min-width: 500px) { 
+    .glitch {
+      font-size: xx-large;
+      letter-spacing: 5px;
     }
   }
