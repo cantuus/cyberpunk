@@ -1,24 +1,23 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom'
+import LandingPage from './components/LandingPage/LandingPage'
+// import PortfolioPage from './components/PortfolioPage/PortFolioPage'
+import TestPage from './components/TestPage/TestPage'
+import { Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <div className="cyber-container">
-        <div className="h-container">
-          <h1 className="cyber-title glitch">come my einherjars, battle awaits us_</h1>
-          <h1 className="cyber-title glitch">come my einherjars, battle awaits us_</h1>
-          <h1 className="cyber-title glitch">come my einherjars, battle awaits us_</h1>
+
+class App extends Component {
+
+  render() {
+    return (
+      <BrowserRouter>
+        <div className="App" >
+          <Route path='/' exact component={LandingPage} />
+          <Route path='/portfolio' exact component={TestPage} />
         </div>
-        <div className="button-container">
-          <button className="btn">
-            <span className="btn__content">join_</span>
-            <span className="btn__glitch"></span>
-          </button>
-        </div>
-      </div>
-    </div>
-  );
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

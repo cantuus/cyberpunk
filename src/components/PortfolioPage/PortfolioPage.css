@@ -1,0 +1,31 @@
+.portfolio-header {
+    color: white;
+    font-family: Tomorrow, sans-serif;
+
+}
+
+:root {
+    --blue-color: #607aa6; 
+    --red-color: #b5053b;
+    --maroon-color: ##276d6c;
+    --teal-color: #276d6c;
+  }
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 87px;
+}
+
+.portfolio-container {
+    display: inline-block;
+    width: 80%;
+    height: 80vh;
+    margin: 10px;
+    --aug-border: 5px;
+    --aug-inset: 10px;
+    padding: 10px; /* mind the gap */
+    text-align: center;
+    --aug-border-bg: linear-gradient(#b5053b, transparent), linear-gradient(to right, #276d6c, transparent), #276d6c;
+    --aug-inset-opacity: 0.125;
+}
