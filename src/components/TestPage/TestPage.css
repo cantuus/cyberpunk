@@ -63,6 +63,7 @@
 .par {
   height: auto;
   overflow: hidden;
+  margin-bottom: 25px;
 }
 
 p{
@@ -96,6 +97,15 @@ p{
   padding: 12px; /* mind the gap */
   text-align: center;
   --aug-border-bg:linear-gradient(#b5053b, transparent), linear-gradient(to right, #276d6c, transparent), #276d6c;
+}
+
+a.icon-button:hover {
+  color: var(--blue-color);
+}
+
+.icon-animation {
+  transform: translateY(50px);
+  animation: slideUp .8s ease-in-out  forwards 1s;
 }
 
 .title {

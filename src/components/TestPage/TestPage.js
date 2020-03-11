@@ -19,7 +19,16 @@ class TestPage extends Component {
                                 </p>
                             </div>
                             <div className="btns">
-                                <button className='btns_more' augmented-ui="tl-clip br-clip exe">works</button>
+                                <a class="icon-button btns_more" target="_blank" href="https://github.com/cantuus" aria-label="Github" title="Github">
+                                    <i class="fab fa-github fa-lg icon-animation"></i>
+                                </a>
+                                <a class="icon-button btns_more" target="_blank" href="https://www.linkedin.com/in/sophia-koeut-2a9030125/"
+                                    aria-label="LinkedIn" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in fa-lg icon-animation"></i>
+                                </a>
+                                <a class="icon-button btns_more" target="_blank" href="mailto:koeutsophia@gmail.com" aria-label="Gmail" title="Gmail">
+                                    <i class="far fa-envelope fa-lg icon-animation"></i>
+                                </a>
                             </div>
                         </div>
                     </div>

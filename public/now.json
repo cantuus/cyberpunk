@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "alias": "cyber-bird",
+    "name": "Sophia's Portfolio",
+    "routes": [
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "^/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
+            "src": "^/manifest.json",
+            "dest": "/manifest.json"
+        },
+        {
+            "src": ".*",
+            "dest": "/index.html"
+        }
+    ]
+}
