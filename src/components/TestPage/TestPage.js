@@ -18,17 +18,22 @@ class TestPage extends Component {
                                     My name is Sophia Koeut and I love to convert tea into code to make the web beautiful!
                                 </p>
                             </div>
-                            <div className="btns">
-                                <a class="icon-button btns_more" target="_blank" href="https://github.com/cantuus" aria-label="Github" title="Github">
-                                    <i class="fab fa-github fa-lg icon-animation"></i>
-                                </a>
-                                <a class="icon-button btns_more" target="_blank" href="https://www.linkedin.com/in/sophia-koeut-2a9030125/"
-                                    aria-label="LinkedIn" title="LinkedIn">
-                                    <i class="fab fa-linkedin-in fa-lg icon-animation"></i>
-                                </a>
-                                <a class="icon-button btns_more" target="_blank" href="mailto:koeutsophia@gmail.com" aria-label="Gmail" title="Gmail">
-                                    <i class="far fa-envelope fa-lg icon-animation"></i>
-                                </a>
+                            <div className="btns-container">
+                                <div className="btns">
+                                    <a class="icon-button btns_more" target="_blank" href="https://github.com/cantuus" aria-label="Github" title="Github">
+                                        <i class="fab fa-github fa-lg icon-animation"></i>
+                                    </a>
+                                    <a class="icon-button btns_more" target="_blank" href="https://www.linkedin.com/in/sophia-koeut-2a9030125/"
+                                        aria-label="LinkedIn" title="LinkedIn">
+                                        <i class="fab fa-linkedin-in fa-lg icon-animation"></i>
+                                    </a>
+                                    <a class="icon-button btns_more" target="_blank" href="mailto:koeutsophia@gmail.com" aria-label="Gmail" title="Gmail">
+                                        <i class="far fa-envelope fa-lg icon-animation"></i>
+                                    </a>
+                                    <a class="icon-button btns_more" href="/projects" aria-label="Projects" title="Projects">
+                                        <i class="fas fa-archive fa-lg icon-animation"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

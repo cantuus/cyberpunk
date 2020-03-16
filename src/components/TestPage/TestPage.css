@@ -73,10 +73,17 @@ p{
   animation: slideUp .8s ease-in-out forwards .8s;
 }
 
+.btns-container {
+  display: flex;
+  justify-content: center;
+}
+
 .btns {
+  display: flex;
+  justify-content: center;
   height: 100%;
   position: relative;
-  width: 150px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -92,12 +99,6 @@ p{
   outline: none;
   transform: translateY(50px);
   animation: slideUp .8s ease-in-out  forwards 1s;
-
-  --aug-border: 5px;
-  --aug-inset: 5px;
-  padding: 12px; /* mind the gap */
-  text-align: center;
-  --aug-border-bg:linear-gradient(#b5053b, transparent), linear-gradient(to right, #276d6c, transparent), #276d6c;
 }
 
 a.icon-button:hover {

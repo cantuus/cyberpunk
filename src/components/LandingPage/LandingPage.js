@@ -15,7 +15,7 @@ class LandingPage extends Component {
                 <div className="button-container">
                     <Link to="/portfolio">
                         <button className="btn">
-                            <span className="btn__content">join_</span>
+                            <span className="btn__content">enter_</span>
                             <span className="btn__glitch"></span>
                         </button>
                     </Link>
