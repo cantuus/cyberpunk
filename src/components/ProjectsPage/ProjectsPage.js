@@ -15,7 +15,7 @@ class ProjectPage extends Component {
                         <h1 className="project-header">the works</h1>
                     </div>
                     <div className="projects-container-outer-img" augmented-ui="tl-clip br-clip exe">
-                        <div className="img-inner">
+                        <div className="projects-img-inner">
 
                             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                                 <div class="flipper">
