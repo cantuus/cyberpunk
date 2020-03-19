@@ -27,6 +27,11 @@ class ProjectPage extends Component {
                                         and a click away from showcasing your artistic and guessing skills. Made possible by Socket.io, Canvas,
                                         Js-Cookie, React.js, Node.js, Express, and PostgreSQL.
                                         </p>
+                                        <div class="link-container">
+                                            <a class="link" target="_blank"
+                                                href="https://github.com/thinkful-ei-iguana/digi-doodle-client">Repo</a>
+                                            <a class="link" target="_blank" href="https://digi-doodle.now.sh/">Demo</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -36,10 +41,15 @@ class ProjectPage extends Component {
                                     <div class="front">
                                         <img className="tallyho-img project-img" src={tallyho} alt="" />
                                     </div>
-                                    <div class="back">
+                                    <div class="back tallyho-desc">
                                         <p>Tired of making a visual schedule by hand? Look no further parents!
                                         Tallyho! makes the process easier without the manual labor. Users can create, update, delete, and check off event items on their schedule. Made with love - React.js, Node.js, Express, PostgreSQL, and JWT Token.
                                         </p>
+                                        <div class="link-container">
+                                            <a class="link" target="_blank"
+                                                href="https://github.com/cantuus/tallyho-client">Repo</a>
+                                            <a class="link" target="_blank" href="https://tally-ho.koeutsophia.now.sh/">Demo</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -53,6 +63,11 @@ class ProjectPage extends Component {
                                         <p>Pick up Japanese with Dozo where it utilizes the Spaced Repetition method
                                         for an effective way of studying. Built on React.js, Node.js, Express, PostgreSQL, and JWT Token.
                                         </p>
+                                        <div class="link-container">
+                                            <a class="link" target="_blank"
+                                                href="https://github.com/thinkful-ei-iguana/Anthony-Sophia-Capstone">Repo</a>
+                                            <a class="link" target="_blank" href="https://dozo.now.sh/">Demo</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

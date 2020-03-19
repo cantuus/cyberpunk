@@ -117,6 +117,12 @@ h1 {
     animation: slideUp .8s ease forwards .5s;
 }
 
+.link {
+  padding-left: 10px;
+  font-weight: bold;
+  color: var(--red-color)
+}
+
 @keyframes slideIn {
   0% {
     transform: translateX(500px) scale(.2);
@@ -255,6 +261,8 @@ h1 {
       transform: translateY(100px);
       animation: slideUp .8s ease forwards .5s;
   }
+
+  link
   
   @keyframes slideIn {
     0% {
@@ -305,6 +313,10 @@ h1 {
 
 .back {
   margin: 50px;
+}
+
+.tallyho-desc.back {
+  margin: 20px;
 }
 
 /* flip speed goes here */
