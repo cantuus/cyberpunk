@@ -58,7 +58,7 @@
   color: var(--blue-color);
   line-height: 28px;
   transform: translateY(300px);
-  animation: slideUp .8s ease-in-out forwards .8s;
+  animation: slideIn .8s ease-in-out forwards .8s;
 }
 
 .btns {
@@ -102,7 +102,8 @@ a.icon-button:hover {
 }
 
 .project-title {
- color: var(--red-color)
+ color: var(--red-color);
+ font-weight: bold;
 }
 
 .project-header {
@@ -110,11 +111,7 @@ a.icon-button:hover {
     color: var(--teal-color);
     margin-bottom: 20px;
     transform: translateY(100px);
-    animation: slideUp .8s ease forwards .5s;
-}
-
-.link-container {
-  text-align: center;
+    animation: slideIn .8s ease forwards .5s;
 }
 
 .link {
@@ -127,6 +124,34 @@ a.icon-button:hover {
   width: 100%;
 }
 
+#footer {
+  margin: 55px;
+  margin-top: 30px;
+  text-align:center;
+  color: var(--teal-color);
+  font-size: 25px;
+  font-weight: bold;
+  border:none;
+  text-transform: lowercase;
+  position: relative;
+  outline: none;
+  transform: translateY(50px);
+  animation: slideUp .8s ease-in-out  forwards 1s;
+}
+
+.footer-nav {
+  margin-top: 15px;
+}
+
+
+.icon-button {
+  color: var(--red-color);
+  margin:19px;
+  font-weight: bold;
+  position: relative;
+  transform: translateY(50px);
+  animation: slideUp .8s ease-in-out  forwards 1s;
+}
 @keyframes slideIn {
   0% {
     transform: translateX(500px) scale(.2);
@@ -198,6 +223,7 @@ a.icon-button:hover {
   
   .projects-container-outer-img {
     margin: 128px;
+    margin-right: 0px;
     width: 44%;
     overflow: hidden;
     display: inline-block;
@@ -291,6 +317,17 @@ a.icon-button:hover {
       transform: translateX(0px);
     }
   }
+
+  #footer {
+    margin-top: 900px;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
 
 
 /* CSS FLIP */

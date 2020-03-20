@@ -119,6 +119,20 @@ class ProjectPage extends Component {
                             <img src={tallyho} alt="cyber punk girl and boy" className="container_img" /> */}
                         </div>
                     </div>
+                    <footer id="footer">keep in touch.
+                        <div class="footer-nav">
+                            <a class="icon-button" target="_blank" href="https://github.com/cantuus" aria-label="Github" title="Github">
+                                <i class="fab fa-github fa-lg"></i>
+                            </a>
+                            <a class="icon-button" target="_blank" href="https://www.linkedin.com/in/sophia-koeut-2a9030125/"
+                                aria-label="LinkedIn" title="LinkedIn">
+                                <i class="fab fa-linkedin-in fa-lg"></i>
+                            </a>
+                            <a class="icon-button" target="_blank" href="mailto:koeutsophia@gmail.com" aria-label="Gmail" title="Gmail">
+                                <i class="far fa-envelope fa-lg"></i>
+                            </a>
+                        </div>
+                    </footer>
                 </div>
                 <div className="project-overlay"></div>
             </div>
