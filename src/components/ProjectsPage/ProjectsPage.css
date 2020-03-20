@@ -5,7 +5,7 @@
     --teal-color: #276d6c;
 }
 
-.overlay {
+.project-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -13,7 +13,7 @@
   bottom: 0;
   height: 100%;
   z-index: -10;
-  background-color: var(--teal-color);
+  background-color: black;
 }
 
 .container {
@@ -39,16 +39,8 @@
 }
 
 .projects-container-outer-img {
-  margin: 128px;
-  width: 44%;
-  overflow: hidden;
-  display: inline-block;
-  --aug-border: 5px;
-  --aug-inset: 5px;
-  padding: 27px; /* mind the gap */
-  text-align: center;
-  --aug-border-bg:linear-gradient(#b5053b, transparent), linear-gradient(to right, #276d6c, transparent), #276d6c;
-  animation: slideIn 1.5s ease-in-out forwards;
+  margin-right: 10px;
+  margin-left: 10px;
 }   
     
 .container_img {
@@ -62,7 +54,8 @@
   margin-bottom: 25px;
 }
 
-p{
+.summary {
+  color: var(--blue-color);
   line-height: 28px;
   transform: translateY(300px);
   animation: slideUp .8s ease-in-out forwards .8s;
@@ -104,12 +97,15 @@ a.icon-button:hover {
   animation: slideUp .8s ease-in-out  forwards 1s;
 }
 
-.title {
-  overflow: hidden;
-  height: auto;
+.flip-container {
+  margin: 5px;
 }
 
-h1 {
+.project-title {
+ color: var(--red-color)
+}
+
+.project-header {
     font-size: 40px;
     color: var(--teal-color);
     margin-bottom: 20px;
@@ -117,10 +113,18 @@ h1 {
     animation: slideUp .8s ease forwards .5s;
 }
 
+.link-container {
+  text-align: center;
+}
+
 .link {
   padding-left: 10px;
   font-weight: bold;
   color: var(--red-color)
+}
+
+.project-img {
+  width: 100%;
 }
 
 @keyframes slideIn {
@@ -163,7 +167,6 @@ h1 {
     bottom: 0;
     height: 100%;
     z-index: -10;
-    background-color: var(--teal-color);
   }
   
   .projects-container {
@@ -254,15 +257,13 @@ h1 {
     height: auto;
   }
   
-  h1 {
+  .project-header {
       font-size: 40px;
-      color: var(--teal-color);
+      /* color: var(--teal-color); */
       margin-bottom: 20px;
       transform: translateY(100px);
       animation: slideUp .8s ease forwards .5s;
   }
-
-  link
   
   @keyframes slideIn {
     0% {

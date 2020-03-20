@@ -23,7 +23,7 @@ class ProjectPage extends Component {
                                         <img className="project-img" src={digi} alt="" />
                                     </div>
                                     <div class="back">
-                                        <p>Fan of Pictionary? Play our rendition of the classic game with a simple sign up
+                                        <p className="summary">Fan of Pictionary? Play our rendition of the classic game, <span className="project-title">Digi-Doodle</span>, with a simple sign up
                                         and a click away from showcasing your artistic and guessing skills. Made possible by Socket.io, Canvas,
                                         Js-Cookie, React.js, Node.js, Express, and PostgreSQL.
                                         </p>
@@ -42,8 +42,8 @@ class ProjectPage extends Component {
                                         <img className="tallyho-img project-img" src={tallyho} alt="" />
                                     </div>
                                     <div class="back tallyho-desc">
-                                        <p>Tired of making a visual schedule by hand? Look no further parents!
-                                        Tallyho! makes the process easier without the manual labor. Users can create, update, delete, and check off event items on their schedule. Made with love - React.js, Node.js, Express, PostgreSQL, and JWT Token.
+                                        <p className="summary">Tired of making a visual schedule by hand? Look no further parents!
+                                        <span className="project-title"> Tallyho!</span> makes the process easier without the manual labor. Users can create, update, delete, and check off event items on their schedule. Made with love - React.js, Node.js, Express, PostgreSQL, and JWT Token.
                                         </p>
                                         <div class="link-container">
                                             <a class="link" target="_blank"
@@ -60,7 +60,7 @@ class ProjectPage extends Component {
                                         <img className="dozo-img project-img" src={dozo} alt="" />
                                     </div>
                                     <div class="back">
-                                        <p>Pick up Japanese with Dozo where it utilizes the Spaced Repetition method
+                                        <p className="summary">Pick up Japanese with <span className="project-title">Dozo</span> where it utilizes the Spaced Repetition method
                                         for an effective way of studying. Built on React.js, Node.js, Express, PostgreSQL, and JWT Token.
                                         </p>
                                         <div class="link-container">
@@ -120,7 +120,7 @@ class ProjectPage extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="overlay"></div>
+                <div className="project-overlay"></div>
             </div>
         )
     }
