@@ -184,6 +184,11 @@ a.icon-button:hover {
 /* 800px and above; desktops */
 
 @media screen and (min-width: 800px) {
+  
+  .project-header {
+    margin-left: 20px;
+  }
+  
   .overlay {
     position: absolute;
     top: 0;
