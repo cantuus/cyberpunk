@@ -88,13 +88,22 @@ p{
 .btns_more {
   background: transparent; 
   padding: 8px 12px;
-  color: #BF307F;
+  color: var(--red-color);
   font-size: 16px;
   border:none;
   text-transform: lowercase;
   position: relative;
   margin-top: 15px;
   outline: none;
+  transform: translateY(50px);
+  animation: slideUp .8s ease-in-out  forwards 1s;
+}
+
+.icon-button {
+  color: var(--red-color);
+  margin:10px;
+  font-weight: bold;
+  position: relative;
   transform: translateY(50px);
   animation: slideUp .8s ease-in-out  forwards 1s;
 }
@@ -153,10 +162,6 @@ h1 {
 /* 800px and above; desktops */
 
 @media screen and (min-width: 800px) {
-
-  .project-header {
-    margin-left: 20px;
-  }
 
   .container {
     justify-content: space-around;
