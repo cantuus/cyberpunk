@@ -159,9 +159,15 @@ h1 {
 
 
 
-/* 800px and above; desktops */
 
-@media screen and (min-width: 800px) {
+
+/* 800px and above; ipad */
+
+@media screen and (min-width: 700px) {
+
+  .icon-button {
+    margin: 2px;
+  }
 
   .container {
     justify-content: space-around;

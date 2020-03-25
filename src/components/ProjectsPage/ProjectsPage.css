@@ -283,7 +283,7 @@ a.icon-button:hover {
   }
   
   .project-header {
-      font-size: 40px;
+      font-size: 65px;
       /* color: var(--teal-color); */
       margin-bottom: 20px;
       transform: translateY(100px);
@@ -535,6 +535,10 @@ a.icon-button:hover {
 }
 
 .back {
+  margin: 50px;
+}
+
+.back.digi-back {
   margin: 50px;
 }
 
