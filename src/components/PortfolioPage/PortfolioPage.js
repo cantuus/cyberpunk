@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './TestPage.css'
+import './PortfolioPage.css'
 import cyberpunk from '../../images/cyberpunk.jpg'
 
 class TestPage extends Component {

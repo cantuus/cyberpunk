@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './ProjectsPage.css'
-import cyberpunk from '../../images/cyberpunk.jpg'
 import digi from '../../images/digi-doodle.png'
 import dozo from '../../images/dozo.png'
 import tallyho from '../../images/tallyho.png'
