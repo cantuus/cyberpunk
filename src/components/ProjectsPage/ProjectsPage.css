@@ -180,11 +180,180 @@ a.icon-button:hover {
   }
 }
 
+/* 700px and above; ipad */
 
+@media screen and (min-width: 700px) {
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -10;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    color: #fff;
+    animation: expand .8s ease forwards;
+    background-color: black;
+    position: relative;
+    font-family: Barlow, sans-serif;
+    transition: all .8s ease;
+  }
+  
+  .container_content {
+   width: 50%;
+  }
+  
+  .container_content_inner {
+    width: 80%;
+    margin-left: 80px;
+  }
+
+  .projects-img-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .projects-container-outer-img {
+    margin: 20px;
+    width: 44%;
+    overflow: hidden;
+    display: inline-block;
+    --aug-border: 5px;
+    --aug-inset: 5px;
+    padding: 60px; /* mind the gap */
+    padding-top: 0;
+    text-align: center;
+    --aug-border-bg:linear-gradient(#b5053b, transparent), linear-gradient(to right, #276d6c, transparent), #276d6c;
+  }   
+      
+  .container_img {
+    width: 80%;
+    animation: slideIn 1.5s ease-in-out forwards;
+  }
+  
+  .par {
+    height: auto;
+    overflow: hidden;
+  }
+  
+  p{
+    line-height: 28px;
+    transform: translateY(300px);
+    animation: slideUp .8s ease-in-out forwards .8s;
+  }
+  
+  .btns {
+    height: 100%;
+    position: relative;
+    width: 150px;
+    overflow: hidden;
+  }
+  
+  .btns_more {
+    background: transparent; 
+    padding: 8px 12px;
+    color: #BF307F;
+    font-size: 16px;
+    border:none;
+    text-transform: lowercase;
+    position: relative;
+    margin-top: 15px;
+    outline: none;
+    transform: translateY(50px);
+    animation: slideUp .8s ease-in-out  forwards 1s;
+
+    --aug-border: 5px;
+    --aug-inset: 5px;
+    padding: 12px; /* mind the gap */
+    text-align: center;
+    --aug-border-bg:linear-gradient(#b5053b, transparent), linear-gradient(to right, #276d6c, transparent), #276d6c;
+  }
+  
+  .title {
+    overflow: hidden;
+    height: auto;
+  }
+  
+  .project-header {
+      font-size: 40px;
+      /* color: var(--teal-color); */
+      margin-bottom: 20px;
+      transform: translateY(100px);
+      animation: slideUp .8s ease forwards .5s;
+  }
+
+
+
+  /* css fun stuff */
+  .flip-container {
+    perspective: 1000px;
+  }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+      transform: rotateY(180deg);
+    }
+  
+  .flip-container  {
+    width: 100%;
+    height: 20vh;
+  }
+  
+  .front.digi-img {
+    margin-top: 50px;
+  }
+  
+  .back {
+    margin: 10px;
+  }
+  
+  .tallyho-desc.back {
+    margin: -31px;
+  }
+  
+  /* flip speed goes here */
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+  
+    position: relative;
+  }
+  
+  /* hide back of pane during swap */
+  .front, .back {
+    backface-visibility: hidden;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  /* front pane, placed above back */
+  .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+  }
+  
+  /* back, initially hidden pane */
+  .back {
+    transform: rotateY(180deg);
+  }
+  
+  .project-img {
+    width: 60%;
+  }
+}
 
 /* 800px and above; desktops */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1030px) {
   
   .project-header {
     margin-left: 20px;
@@ -204,6 +373,7 @@ a.icon-button:hover {
     display: flex;
     height: auto;
     justify-content: space-around;
+    flex-direction: unset;
     align-items: center;
     color: #fff;
     animation: expand .8s ease forwards;
