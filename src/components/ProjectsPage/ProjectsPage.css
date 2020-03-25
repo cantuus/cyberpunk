@@ -218,6 +218,7 @@ a.icon-button:hover {
   .projects-img-inner {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
   
   .projects-container-outer-img {
@@ -289,6 +290,10 @@ a.icon-button:hover {
       animation: slideUp .8s ease forwards .5s;
   }
 
+  .footer-nav {
+    margin-top: 25px;
+  }
+
 
 
   /* css fun stuff */
@@ -307,6 +312,10 @@ a.icon-button:hover {
   
   .front.digi-img {
     margin-top: 50px;
+  }
+
+  .back.digi-back {
+    margin: -5px;
   }
   
   .back {

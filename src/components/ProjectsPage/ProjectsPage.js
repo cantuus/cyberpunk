@@ -22,9 +22,8 @@ class ProjectPage extends Component {
                                     <div class="front digi-img">
                                         <img className="project-img" src={digi} alt="" />
                                     </div>
-                                    <div class="back">
-                                        <p className="summary">Fan of Pictionary? Play our rendition of the classic game, <span className="project-title">Digi-Doodle</span>, with a simple sign up
-                                        and a click away from showcasing your artistic and guessing skills. Made possible by Socket.io, Canvas,
+                                    <div class="back digi-back">
+                                        <p className="summary">Fan of Pictionary? Play our rendition of the classic game, <span className="project-title">Digi-Doodle</span>, with a click away from showcasing your artistic and guessing skills. Made possible by Socket.io, Canvas,
                                         Js-Cookie, React.js, Node.js, Express, and PostgreSQL.
                                         </p>
                                         <div class="link-container">
