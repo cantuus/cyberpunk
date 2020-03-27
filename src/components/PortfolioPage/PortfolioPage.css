@@ -108,7 +108,7 @@ p{
   animation: slideUp .8s ease-in-out  forwards 1s;
 }
 
-a.icon-button:hover {
+a.icon-button.btns_more:hover {
   color: var(--blue-color);
 }
 

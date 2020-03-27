@@ -88,7 +88,7 @@
   --aug-border-bg:linear-gradient(#b5053b, transparent), linear-gradient(to right, #276d6c, transparent), #276d6c;
 }
 
-a.icon-button:hover {
+a.project-icon-button:hover {
   color: var(--blue-color);
 }
 
@@ -288,6 +288,10 @@ a.icon-button:hover {
       margin-bottom: 20px;
       transform: translateY(100px);
       animation: slideUp .8s ease forwards .5s;
+  }
+
+  .link .project-title {
+    font-weight: bolder;
   }
 
   .footer-nav {
